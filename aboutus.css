@@ -1,0 +1,104 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+header
+{
+    background-color: black;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0px;
+}
+ul{
+    margin= 0;
+    padding: 0;
+    list-style: none;
+}
+li {
+    float: right;}
+    li a{
+        display: block;
+        color:white;
+        text-align: center;
+        padding: 50px 60px;
+        text-decoration: none;
+        font-size: 30px;
+    }
+    li a:hover{
+        background-color: rgb(230, 255, 2);
+    }
+ul
+img[src="logo.png"]
+{
+width: 150px;
+height: 150px;
+}
+
+section[id="2"]
+{ text-align: center;
+    background-color: black;
+    color:yellow;
+    font-size: 30px;
+padding-top: 20px;
+}
+.information{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    
+}
+.project{
+    background-color: #222;
+    border: 1px solid #333;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+
+
+footer{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgb(247, 243, 5);
+    color:black;
+
+
+    }
+    .social-icons {
+        display: flex;
+        justify-content: center; 
+        gap: 15px; 
+        margin-top: 10px;
+      }
+      .social-icons img {
+        width: 40px; 
+        height: 40px; 
+        border-radius: 50%; 
+        transition: transform 0.3s ease, box-shadow 0.3s ease; }
+      a{
+        text-decoration: none;
+        color: rgb(250, 249, 249);
+        text-align: center;
+        font-size: 20px;
+      }
+       .samih h1:hover{
+        background-color: rgb(221, 245, 8);
+    }
+    .mansoorh h1:hover{
+        background-color: rgb(221, 245, 8);
+    }
+    .rizwanh h1:hover{
+        background-color: rgb(221, 245, 8);
+    }
+    section[id="1"]
+    {
+        font-size: 30px;
+        padding: 20px 20px 20px 20px;
+        background-color: aliceblue;
+    }

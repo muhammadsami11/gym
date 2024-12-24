@@ -1,0 +1,182 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+header
+{
+    background-color: black;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0px;
+}
+ul{
+    margin= 0;
+    padding: 0;
+    list-style: none;
+}
+li {
+    float: right;}
+    li a{
+        display: block;
+        color:white;
+        text-align: center;
+        padding: 50px 60px;
+        text-decoration: none;
+        font-size: 30px;
+    }
+    li a:hover{
+        background-color: rgb(230, 255, 2);
+    }
+ul
+img[src="logo.png"]
+{
+width: 200px;
+height: 200px;
+}
+img[src="Banner.png"]
+{
+
+    width: 100%;
+    height: 700px;
+}
+footer{
+font-size: 30px;
+text-align: center;
+padding: 20px;
+background-color: rgb(247, 243, 5);
+color:black;
+}
+section[id="2"]
+{ display: flex;
+justify-content: space-between;
+    align:center;
+    padding: 50px;
+    background-color: aliceblue;
+    font-size: 30px;
+}
+section[id="2"] p#p1
+{text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+section[id="2"].description
+{text-align:center;
+gap:20px;
+    order: 1;
+    flex:1;
+margin-top: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+    color: dark;
+   line-height: 4;
+}
+
+img[id="3", src="goldgym.webp"]
+{
+order:2;
+font-size: 14px;
+max-width: 50%;
+height: auto;
+}
+img[id="4"]:hover{
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+section[id="3"]
+{ text-align: center;
+    padding: 50px;
+    background-color: rgb(0, 8, 15);
+    font-size: 30px;
+    border-style:none;
+    color:yellow;
+}
+section[id="4"]  {
+    background-color: aliceblue;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:25px;
+    text-align: center;
+    font-size:25px;
+  }
+  section[id="4"] .cardio {
+   
+    padding: 15px;
+    text-align: center;
+  }
+img [id="3", src="cardio.jpg"]
+{
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+  section[id="4"] .strength {
+    padding: 15px;
+    text-align: center;
+  }
+  img [id="4", src="strength.jpg"]
+{
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+  section[id="4"] .body {
+    padding: 15px;
+    text-align: center;
+  }
+  
+
+  img [id="5", src="body.jpg"]
+  {
+      border-radius: 30px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  section[id="4"] .cycling {
+    padding: 15px;
+    text-align: center;
+  }
+  img [id="6", src="cycling.jpg"]
+  {
+      border-radius: 30px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center; 
+    gap: 15px; 
+    margin-top: 10px;
+  }
+  .social-icons img {
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; }
+   
+    .contact {
+      padding-top: 20px;
+      padding-bottom: 20px;
+  
+     padding-left: 20px;
+     padding-right:20px;
+     text-align: center;
+     font-size: 40px;
+     background-color: black;
+  }
+  .contact a{
+    text-decoration: none;
+    color:yellow;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+

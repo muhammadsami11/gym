@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header
+{
+    background-color: black;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0px;
+}
+ul{
+    margin= 0;
+    padding: 0;
+    list-style: none;
+}
+li {
+    float: right;}
+    li a{
+        display: block;
+        color:white;
+        text-align: center;
+        padding: 50px 60px;
+        text-decoration: none;
+        font-size: 30px;
+    }
+    li a:hover{
+        background-color: rgb(230, 255, 2);
+    }
+ul
+img[src="logo.png"]
+{
+width: 200px;
+height: 200px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    gap: 30px;
+}
+
+.contact-form-container {
+    max-width: 900px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 65%;  
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 25px;  
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;  
+    display: block;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 18px;  
+    margin-top: 8px;
+}
+
+input[type="tel"] {
+    font-size: 18px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.submit-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px 25px;  
+    font-size: 18px;  
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    background-color: #333;
+}
+
+.social-links {
+    max-width: 320px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;  
+}
+
+.social-links h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.social-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;  
+}
+
+.social-btn {
+    text-decoration: none;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 6px;
+    font-size: 18px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.facebook-btn {
+    background-color: #3b5998;
+}
+
+.instagram-btn {
+    background-color: #C13584;
+}
+
+.whatsapp-btn {
+    background-color: #25D366;  
+}
+
+.social-btn:hover {
+    opacity: 0.8;
+}
+
+footer {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(211, 248, 0);
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+}
